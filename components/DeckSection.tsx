@@ -8,14 +8,14 @@ export function DeckSection() {
           <span className="eyebrow">The deck</span>
           <h2 className="title">Twenty-two archetypes.</h2>
           <p className="lead">
-            From the reckless Fool to the all-seeing World — a complete cast of characters,
-            each tuned for a different kind of work.
+            From the reckless Fool to the all-seeing World — not a list of features. A cast of characters.
           </p>
         </div>
         <div className="deck">
           {ARCANA.map((card) => (
-            <div
+            <a
               key={card.n}
+              href={`/arcana#card-${card.n.toLowerCase()}`}
               className={`achip${card.world ? ' world' : ''}`}
               style={{ '--cc': card.c } as React.CSSProperties}
             >
@@ -31,7 +31,7 @@ export function DeckSection() {
               <div className="aft">
                 <span className="atemp">temp {card.temp.toFixed(2)}</span>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

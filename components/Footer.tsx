@@ -15,27 +15,22 @@ export function Footer() {
           </div>
           <div className="foot-col">
             <h5>Product</h5>
-            <a href="#cards">The Cards</a>
-            <a href="#memory">Memory</a>
-            <a href="#world">The World</a>
-            <a href="#cloud">Cloud</a>
-            <a href="#pricing">Pricing</a>
+            <a href="/arcana">The Cards</a>
+            <a href="#how">How it works</a>
+            <a href="#install">Install</a>
           </div>
           <div className="foot-col">
             <h5>Open Source</h5>
-            <a href="#">GitHub</a>
-            <a href="#">arcana-core</a>
-            <a href="#">arcana-cli</a>
-            <a href="#">Roadmap</a>
-            <a href="#">Contribute</a>
+            <a href="https://github.com/priscilapower/arcana" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/priscilapower/arcana" target="_blank" rel="noopener noreferrer">arcana-core</a>
+            <a href="https://github.com/priscilapower/arcana" target="_blank" rel="noopener noreferrer">Roadmap</a>
+            <a href="https://github.com/priscilapower/arcana" target="_blank" rel="noopener noreferrer">Contribute</a>
           </div>
           <div className="foot-col">
             <h5>Resources</h5>
             <a href="#">Docs</a>
             <a href="#">CLI reference</a>
-            <a href="#">The 22 Arcana</a>
             <a href="#">Changelog</a>
-            <a href="#">Discord</a>
           </div>
         </div>
         <div className="foot-bot">

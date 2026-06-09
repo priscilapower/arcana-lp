@@ -4,27 +4,27 @@ export function ProblemSection() {
       <div className="wrap">
         <div className="shead">
           <span className="eyebrow">The problem</span>
-          <h2 className="title">Your agents are strangers<br />to each other.</h2>
+          <h2 className="title">Your agents have no soul.</h2>
           <p className="lead">
-            Claude, ChatGPT, local models, Notion AI — all siloed. No shared memory, no overview, no coordination.
-            Observability tools watch them. Nobody gives them <em className="it">identity</em>.
+            No consistent character, no overview, nobody in charge. You can&apos;t tell what they know,
+            why they behaved the way they did, or who to hold responsible when they go off-track.
           </p>
         </div>
         <div className="grid-3">
           <div className="pcard">
-            <span className="pk">Siloed</span>
-            <h3>No shared memory</h3>
-            <p>Every tool starts from zero. What one agent learns, the others never see. Context dies at the end of each session.</p>
+            <span className="pk">Identity</span>
+            <h3>No soul</h3>
+            <p>Agents are a model name and a system prompt. No archetype, no voice, nothing that makes one reliably different from the next. Same tool, different answer, no explanation why.</p>
           </div>
           <div className="pcard">
-            <span className="pk">Faceless</span>
-            <h3>No identity</h3>
-            <p>Agents are config blobs — a model name and a prompt. No personality, no purpose, nothing that makes one different from the next.</p>
+            <span className="pk">Character</span>
+            <h3>No consistent character</h3>
+            <p>Personality evaporates between prompts. The same agent runs differently every session because there&apos;s nothing anchoring who it is — just a system prompt you rewrite by hand.</p>
           </div>
           <div className="pcard">
-            <span className="pk">Uncoordinated</span>
+            <span className="pk">Oversight</span>
             <h3>No overview</h3>
-            <p>Nobody is watching the whole. No single place to see every agent, what it knows, what it costs, and what it&apos;s doing right now.</p>
+            <p>Nothing logs intent. You see the output, not the reasoning — the cost, not the cause. When something breaks, you&apos;re debugging a black box.</p>
           </div>
         </div>
       </div>

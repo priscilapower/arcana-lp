@@ -1,14 +1,14 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 import { BrandMark, GithubIcon } from './BrandMark';
 
 const LINKS = [
-  { href: '#cards',   label: 'The Cards' },
-  { href: '#memory',  label: 'Memory'    },
-  { href: '#cloud',   label: 'Cloud'     },
-  { href: '#pricing', label: 'Pricing'   },
-  { href: '#docs',    label: 'Docs'      },
+  { href: '/arcana',   label: 'The Cards' },
+  { href: '/#how',     label: 'How it works' },
+  { href: '/#install', label: 'Install'   },
+  { href: '/#docs',    label: 'Docs'      },
 ];
 
 export function Nav() {
@@ -44,21 +44,25 @@ export function Nav() {
     <>
       <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
         <div className="nav-in">
-          <a href="#top" className="brand">
+          <Link href="/" className="brand">
             <BrandMark />
             <span className="brand-name">ARCANA</span>
             <span className="brand-os">OS</span>
-          </a>
+          </Link>
           <nav className="nav-links" aria-label="Main">
-            {LINKS.map(l => <a key={l.href} href={l.href}>{l.label}</a>)}
+            {LINKS.map(l => <Link key={l.href} href={l.href}>{l.label}</Link>)}
           </nav>
           <div className="nav-right">
-            <a href="#" className="gh-pill">
+            <a
+              href="https://github.com/priscilapower/arcana"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gh-pill"
+            >
               <GithubIcon />
-              <b>4.2k</b> <span className="star">★</span>
+              <span>GitHub</span> <span className="star">★</span>
             </a>
-            <a href="#cloud" className="btn btn-s">Sign in</a>
-            <a href="#pricing" className="btn btn-p">Get started</a>
+            <Link href="/#install" className="btn btn-p">Install</Link>
             <button
               className="nav-menu-btn"
               aria-label={open ? 'Close menu' : 'Open menu'}
@@ -86,11 +90,11 @@ export function Nav() {
         aria-label="Navigation"
       >
         <div className="drawer-head">
-          <a href="#top" className="brand" onClick={close}>
+          <Link href="/" className="brand" onClick={close}>
             <BrandMark />
             <span className="brand-name">ARCANA</span>
             <span className="brand-os">OS</span>
-          </a>
+          </Link>
           <button className="drawer-close" aria-label="Close menu" onClick={close}>
             <CloseIcon />
           </button>
@@ -98,7 +102,7 @@ export function Nav() {
 
         <nav className="drawer-links" aria-label="Mobile navigation">
           {LINKS.map((l, i) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               ref={i === 0 ? firstLinkRef : undefined}
@@ -106,17 +110,21 @@ export function Nav() {
             >
               <span className="dl-bullet" aria-hidden="true">✦</span>
               {l.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
         <div className="drawer-foot">
-          <a href="#" className="gh-pill">
+          <a
+            href="https://github.com/priscilapower/arcana"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gh-pill"
+          >
             <GithubIcon />
-            <b>4.2k</b>&thinsp;<span className="star">★</span>
+            <span>GitHub</span>&thinsp;<span className="star">★</span>
           </a>
-          <a href="#cloud" className="btn btn-s" onClick={close}>Sign in</a>
-          <a href="#pricing" className="btn btn-p" onClick={close}>Get started</a>
+          <Link href="/#install" className="btn btn-p" onClick={close}>Install</Link>
         </div>
       </div>
     </>

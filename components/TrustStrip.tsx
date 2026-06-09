@@ -2,8 +2,8 @@ const ITEMS = [
   'Works fully offline',
   'Your keys, your machine',
   '22 agent archetypes',
-  'MCP-native',
-  'File-system as source of truth',
+  'Ollama · Anthropic · OpenAI-compat',
+  'Git-trackable config files',
 ];
 
 export function TrustStrip() {

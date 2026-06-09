@@ -35,7 +35,9 @@ export function PricingSection() {
           ))}
         </div>
         <p style={{ textAlign: 'center', color: 'var(--txt3)', fontSize: '13px', fontFamily: 'var(--fm)', marginTop: '26px' }}>
-          Cloud plans billed monthly · cancel anytime · the OSS is, and always will be, free.
+          Cloud plans billed monthly · cancel anytime · the OSS is, and always will be, free.{' '}
+          Need enterprise features?{' '}
+          <a href="mailto:hello@arcana.cloud" style={{ color: 'var(--txt2)', textDecoration: 'underline' }}>Contact us</a>.
         </p>
       </div>
     </section>

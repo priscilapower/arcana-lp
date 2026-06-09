@@ -26,10 +26,10 @@ export function CardEngineSection() {
                 </div>
               </div>
               <div className="feat-li">
-                <span className="fi">⟲</span>
+                <span className="fi">⬡</span>
                 <div>
-                  <h4>Reversed states</h4>
-                  <p>When an agent goes wrong, its card reverses — a built-in error vocabulary The World watches for.</p>
+                  <h4>Everything overridable</h4>
+                  <p>The compiled config is plain JSON in ~/.arcana/agents/. Override any value the card produced. The card is the starting point, not a constraint.</p>
                 </div>
               </div>
             </div>
