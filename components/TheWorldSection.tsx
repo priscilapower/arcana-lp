@@ -5,13 +5,14 @@ export function TheWorldSection() {
         <div className="world-card">
           <div className="world-in">
             <div className="world-l">
-              <span className="eyebrow">XXI · The World</span>
+              <span className="eyebrow">XXI · The World<span className="vtag">coming in v1.0</span></span>
               <h2>One meta-agent<br />that sees everything.</h2>
               <p className="lead">
                 The OS itself, made conscious. The World reads across every agent, every memory tier,
-                every session — routing intelligence, detecting reversed cards, and writing your daily briefing.
+                every session: routing intelligence, detecting reversed cards, and writing your daily briefing.
                 The one card that cannot be reversed.
               </p>
+              <p className="impl-note">Not in the current release. Shipping in v1.0.</p>
               <div className="world-stats">
                 <div className="wstat"><div className="wn">3</div><div className="wl">agents active</div></div>
                 <div className="wstat"><div className="wn">2,341</div><div className="wl">memories federated</div></div>
@@ -34,7 +35,7 @@ export function TheWorldSection() {
               </div>
               <div className="brief-row">
                 <span className="bd run" />
-                <div><b>1 reversed card</b> resolved — a runaway loop caught and paused before cost.</div>
+                <div><b>1 reversed card</b> resolved: a runaway loop caught and paused before cost.</div>
               </div>
             </div>
           </div>

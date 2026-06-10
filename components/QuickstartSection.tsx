@@ -9,8 +9,7 @@ export function QuickstartSection() {
             <span className="eyebrow plain">Install</span>
             <h2 className="title">One command.</h2>
             <p className="lead">
-              Ollama, Anthropic, or any OpenAI-compatible endpoint. Local models work out of the box —
-              no API key required.
+              Ollama, Anthropic, or any OpenAI-compatible endpoint. Local models work out of the box.
             </p>
             <div style={{ marginTop: '32px' }}>
               <CopyPillClient />

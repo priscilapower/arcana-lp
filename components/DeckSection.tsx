@@ -8,7 +8,10 @@ export function DeckSection() {
           <span className="eyebrow">The deck</span>
           <h2 className="title">Twenty-two archetypes.</h2>
           <p className="lead">
-            From the reckless Fool to the all-seeing World — not a list of features. A cast of characters.
+            From the reckless Fool to the all-seeing World: not a list of features. A cast of characters.
+          </p>
+          <p style={{ fontSize: '13px', color: 'var(--txt3)', fontFamily: 'var(--fm)', letterSpacing: '.05em', marginTop: '-6px' }}>
+            New to Arcana? Start with the Hermit (research), the Empress (creation), or the Magician (execution).
           </p>
         </div>
         <div className="deck">

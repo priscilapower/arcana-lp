@@ -35,7 +35,7 @@ export function Footer() {
         </div>
         <div className="foot-bot">
           <span>© 2026 Arcana OS · MIT licensed</span>
-          <span>arcanum — secret, mystery</span>
+          <span>arcanum: secret, mystery</span>
         </div>
       </div>
     </footer>

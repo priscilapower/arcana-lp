@@ -7,7 +7,7 @@ export function ConnectSection() {
           <h2 className="title">Bring your own<br />models and tools.</h2>
           <p className="lead">
             Adapters all the way down. MCP servers registered once, models behind one gateway,
-            your knowledge read where it lives — never copied, never owned.
+            your knowledge read where it lives: never copied, never owned.
           </p>
         </div>
         <div className="conn">

@@ -16,7 +16,7 @@ export function Hero() {
             </div>
             <h1>The OS that gives your agents a <em>soul</em>.</h1>
             <p className="hero-sub">
-              Arcana lets you configure and run AI agents as tarot card archetypes — typed personalities
+              Arcana lets you configure and run AI agents as tarot card archetypes: typed personalities
               where system prompt, temperature, and tone are compiled automatically from the card.
             </p>
             <div className="hero-cta">
@@ -57,17 +57,20 @@ export function Hero() {
             </div>
           </div>
         </div>
-        <div className="spread">
-          {SPREAD.map((card) => (
-            <div key={card.n} className="tarot">
-              <div className="t-num">{card.n}</div>
-              <div className="t-star"><StarIcon /></div>
-              <div className="t-name">{card.name}</div>
-              <div className="t-agent">@{card.agent}</div>
-              <div className="t-arch">{card.arch}</div>
-              <div className="t-foot"><span>✦</span> temp {card.temp}</div>
-            </div>
-          ))}
+        <div className="spread-wrap">
+          <span className="eyebrow">The Major Arcana</span>
+          <div className="spread">
+            {SPREAD.map((card) => (
+              <div key={card.n} className="tarot">
+                <div className="t-num">{card.n}</div>
+                <div className="t-star"><StarIcon /></div>
+                <div className="t-name">{card.name}</div>
+                <div className="t-agent">@{card.agent}</div>
+                <div className="t-arch">{card.arch}</div>
+                <div className="t-foot"><span>✦</span> temp {card.temp}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </header>

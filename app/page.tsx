@@ -30,12 +30,13 @@ export default function Home() {
       <DeckSection />
       <div className="wrap"><div className="divline" /></div>
       <QuickstartSection />
-      <div className="wrap rdmp-tag">
-        <span className="rdmp-tag-label">coming in v1.0</span>
-        <div className="divline" />
-      </div>
+      <div className="wrap"><div className="divline" /></div>
       <MemorySection />
       <TheWorldSection />
+      <div className="wrap rdmp-tag">
+        <span className="rdmp-tag-label">arcana.cloud · coming soon</span>
+        <div className="divline" />
+      </div>
       <CloudSignalSection />
       <FinalCTA />
       <Footer />

@@ -7,7 +7,7 @@ export function CardEngineSection() {
             <span className="eyebrow">The card engine</span>
             <h2 className="title">Every agent gets a card.</h2>
             <p className="lead">
-              The 22 Major Arcana are rich archetypes that carry energy and intention — a perfect map for how
+              The 22 Major Arcana are rich archetypes that carry energy and intention: a perfect map for how
               prompting actually works. Assign a card and the engine writes the rest.
             </p>
             <div className="feat-list">
@@ -15,7 +15,7 @@ export function CardEngineSection() {
                 <span className="fi">✦</span>
                 <div>
                   <h4>A soul, compiled</h4>
-                  <p>Each card produces a system prompt, temperature, memory weights, and tool affinities — concrete config from an archetype.</p>
+                  <p>Each card produces a system prompt, temperature, memory weights, and tool affinities: concrete config from an archetype.</p>
                 </div>
               </div>
               <div className="feat-li">

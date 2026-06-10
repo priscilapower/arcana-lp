@@ -6,7 +6,7 @@ export function CloudSignalSection() {
       <div className="wrap cloud-sig-in">
         <p className="cloud-sig-text">
           Arcana is MIT licensed.{' '}
-          <span>Cloud is coming — sync, always-on briefings, and team workspaces. Star on GitHub to follow.</span>
+          <span>Cloud is coming: sync, always-on briefings, and team workspaces. Star on GitHub to follow.</span>
         </p>
         <a
           href="https://github.com/priscilapower/arcana"

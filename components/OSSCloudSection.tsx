@@ -19,18 +19,18 @@ export function OSSCloudSection() {
           <h2 className="title">Run it yourself.<br />Or let us run it.</h2>
           <p className="lead">
             Arcana is local-first and free forever. When you&apos;d rather not host it, Arcana Cloud syncs,
-            backs up, and manages the models for you — same OS, zero ops.
+            backs up, and manages the models for you; same OS, zero ops.
           </p>
         </div>
         <div className="split">
           <div className="path oss">
             <div className="path-k"><OSSMarkSmall /> Open Source</div>
             <h3>Self-hosted</h3>
-            <p className="pdesc">The real product. The Python core, the CLI, and a local server — running on your machine, offline, yours to fork.</p>
+            <p className="pdesc">The real product. The Python core, the CLI, and a local server: running on your machine, offline, yours to fork.</p>
             <ul>
               <li><span className="ck">✓</span> arcana-core, CLI &amp; local server</li>
               <li><span className="ck">✓</span> All 22 cards &amp; full memory federation</li>
-              <li><span className="ck">✓</span> Local models via Ollama — no API needed</li>
+              <li><span className="ck">✓</span> Local models via Ollama (no API needed)</li>
               <li><span className="ck">✓</span> Your keys, your data, your hardware</li>
               <li><span className="ck">✓</span> MIT licensed <span className="mut">· free forever</span></li>
             </ul>
@@ -43,7 +43,7 @@ export function OSSCloudSection() {
             <ul>
               <li><span className="ck">✓</span> Sync agents &amp; memory across devices</li>
               <li><span className="ck">✓</span> Automatic encrypted cloud backup</li>
-              <li><span className="ck">✓</span> Managed models — no keys to wrangle</li>
+              <li><span className="ck">✓</span> Managed models (no keys to wrangle)</li>
               <li><span className="ck">✓</span> Shared agents &amp; team workspaces</li>
               <li><span className="ck">✓</span> Always-on automations &amp; briefings</li>
             </ul>
