@@ -39,20 +39,17 @@ export function CardEngineSection() {
               <div className="tdot r" />
               <div className="tdot y" />
               <div className="tdot g" />
-              <span className="cfg-ttl">arcana — agent create</span>
+              <span className="cfg-ttl">arcana — agent show</span>
             </div>
             <div className="cfg-body">
-              <span className="cl"><span className="c-pr">✦</span> <span className="c-cmd">arcana</span> <span className="c-arg">agent create</span> <span className="c-flag">--name</span> <span className="c-arg">sage</span> <span className="c-flag">--card</span> <span className="c-arg">hermit</span></span>
-              <span className="cl">&nbsp;</span>
-              <span className="cl c-mut">─── compiled from IX · The Hermit ───</span>
+              <span className="cl"><span className="c-pr">✦</span> <span className="c-cmd">arcana</span> <span className="c-arg">agent show</span> <span className="c-arg">sage</span></span>
+              <span className="cl c-mut">─── IX · The Hermit ───</span>
               <span className="cl c-ind"><span className="c-key">archetype  </span><span className="c-val">Researcher / Deep Analyst</span></span>
               <span className="cl c-ind"><span className="c-key">temp       </span><span className="c-val">0.35</span></span>
               <span className="cl c-ind"><span className="c-key">memory     </span><span className="c-val">semantic 0.95 · episodic 0.4</span></span>
               <span className="cl c-ind"><span className="c-key">tone       </span><span className="c-val">measured · cites everything</span></span>
-              <span className="cl c-ind"><span className="c-key">card       </span><span className="c-card">IX · The Hermit</span></span>
-              <span className="cl c-mut">──────────────────────────────────────</span>
-              <span className="cl">&nbsp;</span>
-              <span className="cl"><span className="c-ok">✓</span> <span className="c-arg">agent</span> <span className="c-val">sage</span> <span className="c-arg">created · ready in</span> <span className="c-val">~/.arcana/agents/</span></span>
+              <span className="cl c-ind"><span className="c-key">tools      </span><span className="c-val">web.search, fs.read</span></span>
+              <span className="cl c-ind"><span className="c-key">config     </span><span className="c-val">~/.arcana/agents/sage.json</span><span className="c-mut">   (editable JSON)</span></span>
             </div>
           </div>
         </div>
