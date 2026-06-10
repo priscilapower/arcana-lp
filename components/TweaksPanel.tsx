@@ -37,19 +37,19 @@ export function TweaksPanel() {
           textTransform: 'uppercase', color: 'var(--txt3)', cursor: 'pointer',
           display: open ? 'none' : 'block',
         }}
-        aria-label="Open tweaks panel"
+        aria-label="Open appearance panel"
       >
-        Tweaks
+        Appearance
       </button>
 
       {open && (
-        <div className="twp" role="dialog" aria-label="Theme tweaks">
+        <div className="twp" role="dialog" aria-label="Appearance settings">
           <div className="tw-hd">
-            Tweaks
+            Appearance
             <span className="tw-x" role="button" tabIndex={0} onClick={() => setOpen(false)} onKeyDown={(e) => e.key === 'Enter' && setOpen(false)}>✕</span>
           </div>
           <div className="tw-row">
-            <div className="tw-lbl">Accent pairing</div>
+            <div className="tw-lbl">Colors</div>
             <div className="tw-opts">
               {(Object.entries(ACCENTS) as [AccentKey, typeof ACCENTS[AccentKey]][]).map(([key, val]) => (
                 <span

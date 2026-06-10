@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Spectral, DM_Sans, JetBrains_Mono } from 'next/font/google';
+import { Spectral, Barlow, JetBrains_Mono } from 'next/font/google';
 import { ToastProvider } from '@/components/ToastProvider';
 import './globals.css';
 
@@ -11,10 +11,10 @@ const spectral = Spectral({
   display: 'swap',
 });
 
-const dmSans = DM_Sans({
+const barlow = Barlow({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600'],
-  variable: '--font-dm-sans',
+  variable: '--font-barlow',
   display: 'swap',
 });
 
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       data-theme="dark"
-      className={`${spectral.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}
+      className={`${spectral.variable} ${barlow.variable} ${jetbrainsMono.variable}`}
     >
       <body>
         <ToastProvider>

@@ -62,7 +62,7 @@ Three font roles, loaded via `next/font/google`:
 | Token | Font | Use |
 |---|---|---|
 | `--fd` | Spectral | Display headings, tarot card names, section titles. Weight 300. Italic used expressively (hero `<em>`, final CTA). |
-| `--fb` | DM Sans | Body, UI, navigation, button labels. Clean geometric humanist. |
+| `--fb` | Barlow | Body, UI, navigation, button labels. Humanist sans with slightly compressed proportions; precise without sterile. |
 | `--fm` | JetBrains Mono | Code, CLI, eyebrow labels, numerical data (temp, card numbers, tier keys). |
 
 ### Scale

@@ -6,7 +6,7 @@ export function QuickstartSection() {
       <div className="wrap">
         <div className="feat rev">
           <div>
-            <span className="eyebrow">Install</span>
+            <span className="eyebrow plain">Install</span>
             <h2 className="title">One command.</h2>
             <p className="lead">
               Ollama, Anthropic, or any OpenAI-compatible endpoint. Local models work out of the box —

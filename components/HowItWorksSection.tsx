@@ -3,7 +3,7 @@ export function HowItWorksSection() {
     <section className="section" id="how">
       <div className="wrap">
         <div className="shead">
-          <span className="eyebrow">How it works</span>
+          <span className="eyebrow plain">How it works</span>
           <h2 className="title">From card to agent<br />in three steps.</h2>
         </div>
         <div className="how-steps">
